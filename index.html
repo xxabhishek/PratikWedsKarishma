@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>Pratik weds Karishma — Wedding Invitation | 01 May 2026</title>
     <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400;1,600&family=Cinzel+Decorative:wght@400;700&family=IM+Fell+English:ital@0;1&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cinzel+Decorative:wght@400;500;600;700;800;900&family=IM+Fell+English:ital@0;1&display=swap"
         rel="stylesheet">
     <style>
         * {
@@ -558,7 +558,7 @@
         .couple-feature {
             position: relative;
             z-index: 2;
-            max-width: 860px;
+            max-width: 960px;
             margin: 0 auto;
             padding: 0 24px;
         }
@@ -566,10 +566,10 @@
         .cf-inner {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 3px;
+            gap: 6px;
             overflow: hidden;
             border: 1px solid rgba(212, 168, 67, 0.25);
-            box-shadow: 0 0 60px rgba(212, 168, 67, 0.12);
+            box-shadow: 0 0 80px rgba(212, 168, 67, 0.15);
         }
 
         @media (max-width: 600px) {
@@ -581,7 +581,7 @@
         .cf-photo {
             position: relative;
             overflow: hidden;
-            height: 400px;
+            height: 480px;
             cursor: pointer;
         }
 
@@ -616,8 +616,8 @@
         .cf-caption span {
             font-family: 'IM Fell English', serif;
             font-style: italic;
-            font-size: 14px;
-            color: rgba(212, 168, 67, 0.7);
+            font-size: 16px;
+            color: rgba(212, 168, 67, 0.8);
         }
 
         /* SECTIONS */
@@ -638,10 +638,10 @@
         .sec-label {
             font-family: 'Playfair Display', serif;
             font-style: italic;
-            font-size: 12px;
-            letter-spacing: 5px;
+            font-size: 13px;
+            letter-spacing: 6px;
             color: var(--gold);
-            opacity: 0.65;
+            opacity: 0.7;
             text-transform: uppercase;
             text-align: center;
             margin-bottom: 14px;
@@ -649,24 +649,25 @@
 
         .sec-title {
             font-family: 'Cinzel Decorative', serif;
-            font-size: clamp(19px, 4vw, 30px);
+            font-size: clamp(22px, 4.5vw, 34px);
             color: var(--gold2);
             text-align: center;
-            margin-bottom: 4px;
-            text-shadow: 0 0 30px rgba(212, 168, 67, 0.3);
+            margin-bottom: 6px;
+            text-shadow: 0 0 35px rgba(212, 168, 67, 0.4);
+            letter-spacing: 1px;
         }
 
         .ornament-row {
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 16px;
-            margin: 20px auto 52px;
+            gap: 20px;
+            margin: 24px auto 56px;
         }
 
         .or-line {
             height: 1px;
-            width: 80px;
+            width: 100px;
             background: linear-gradient(90deg, transparent, var(--gold));
         }
         .or-line:last-child {
@@ -675,9 +676,9 @@
         .or-center {
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 10px;
             color: var(--gold);
-            font-size: 14px;
+            font-size: 18px;
         }
 
         .sec-divider {
@@ -702,7 +703,7 @@
         }
         .sec-divider span {
             color: var(--gold);
-            font-size: 22px;
+            font-size: 24px;
             padding: 0 20px;
             opacity: 0.5;
             white-space: nowrap;
@@ -729,14 +730,14 @@
         .scratch-hint {
             font-family: 'IM Fell English', serif;
             font-style: italic;
-            font-size: 16px;
+            font-size: 18px;
             color: var(--text2);
             text-align: center;
         }
         .scratch-box {
             position: relative;
-            width: 300px;
-            height: 180px;
+            width: 340px;
+            height: 200px;
             border: 1px solid rgba(212, 168, 67, 0.4);
             box-shadow: 0 0 40px rgba(212, 168, 67, 0.15), inset 0 0 30px rgba(0, 0, 0, 0.3);
         }
@@ -761,23 +762,23 @@
         }
         .s-date {
             font-family: 'Cinzel Decorative', serif;
-            font-size: 20px;
+            font-size: 24px;
             color: var(--gold2);
             letter-spacing: 2px;
         }
         .s-year {
-            font-size: 11px;
+            font-size: 12px;
             letter-spacing: 4px;
             color: var(--gold);
             opacity: 0.6;
-            margin-top: 8px;
+            margin-top: 10px;
         }
         .s-day {
             font-family: 'IM Fell English', serif;
             font-style: italic;
-            font-size: 14px;
+            font-size: 16px;
             color: var(--text2);
-            margin-top: 6px;
+            margin-top: 8px;
         }
         #scratchCanvas {
             position: absolute;
@@ -789,7 +790,7 @@
             display: none;
             font-family: 'IM Fell English', serif;
             font-style: italic;
-            font-size: 15px;
+            font-size: 18px;
             color: var(--gold2);
             text-align: center;
             animation: rise 0.6s both;
@@ -799,15 +800,15 @@
         .countdown-wrap {
             display: flex;
             justify-content: center;
-            gap: clamp(8px, 3vw, 24px);
+            gap: clamp(12px, 3vw, 28px);
             flex-wrap: wrap;
         }
         .cd-unit {
             text-align: center;
-            min-width: 90px;
+            min-width: 100px;
             background: linear-gradient(160deg, rgba(212, 168, 67, 0.08), rgba(212, 168, 67, 0.02));
             border: 1px solid rgba(212, 168, 67, 0.2);
-            padding: 28px 16px 20px;
+            padding: 32px 20px 24px;
             position: relative;
             overflow: hidden;
         }
@@ -823,42 +824,43 @@
         .cd-glow {
             position: absolute;
             inset: 0;
-            background: radial-gradient(ellipse at 50% 0%, rgba(212, 168, 67, 0.08), transparent 70%);
+            background: radial-gradient(ellipse at 50% 0%, rgba(212, 168, 67, 0.1), transparent 70%);
             pointer-events: none;
         }
         .cd-num {
             font-family: 'Cinzel Decorative', serif;
-            font-size: clamp(34px, 8vw, 52px);
+            font-size: clamp(40px, 9vw, 60px);
             color: var(--gold2);
             line-height: 1;
-            text-shadow: 0 0 20px rgba(212, 168, 67, 0.5);
+            text-shadow: 0 0 25px rgba(212, 168, 67, 0.6);
             transition: transform 0.2s;
         }
         .cd-num.pop {
             transform: scale(1.15);
         }
         .cd-lbl {
-            font-size: 9px;
-            letter-spacing: 4px;
+            font-size: 10px;
+            letter-spacing: 5px;
             color: var(--gold);
             opacity: 0.5;
-            margin-top: 10px;
+            margin-top: 12px;
             text-transform: uppercase;
         }
 
-        /* GALLERY GRID */
+        /* GALLERY GRID - ENLARGED */
         .gallery-grid {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: auto auto;
-            gap: 4px;
-            max-width: 860px;
+            gap: 8px;
+            max-width: 1100px;
             margin: 0 auto;
             padding: 0 24px;
         }
-        @media (max-width: 600px) {
+        @media (max-width: 700px) {
             .gallery-grid {
                 grid-template-columns: 1fr 1fr;
+                gap: 6px;
             }
         }
         .gg-item {
@@ -892,35 +894,35 @@
         .gg-big {
             grid-column: 1 / 3;
             grid-row: 1;
-            height: 420px;
+            height: 520px;
         }
-        @media (max-width: 600px) {
+        @media (max-width: 700px) {
             .gg-big {
                 grid-column: 1/3;
-                height: 260px;
+                height: 320px;
             }
         }
         .gg-tall {
             grid-column: 3;
             grid-row: 1/3;
         }
-        @media (max-width: 600px) {
+        @media (max-width: 700px) {
             .gg-tall {
                 grid-column: 1/3;
                 grid-row: auto;
-                height: 280px;
+                height: 340px;
             }
         }
         .gg-small {
-            height: 220px;
+            height: 280px;
         }
-        @media (max-width: 600px) {
+        @media (max-width: 700px) {
             .gg-small {
-                height: 180px;
+                height: 220px;
             }
         }
         .gg-border {
-            border: 1px solid rgba(212, 168, 67, 0.15);
+            border: 1px solid rgba(212, 168, 67, 0.2);
         }
 
         /* LIGHTBOX */
@@ -942,13 +944,13 @@
             max-height: 90vh;
             object-fit: contain;
             border: 1px solid rgba(212, 168, 67, 0.2);
-            box-shadow: 0 0 80px rgba(212, 168, 67, 0.1);
+            box-shadow: 0 0 100px rgba(212, 168, 67, 0.15);
         }
         #lb-close {
             position: absolute;
-            top: 24px;
-            right: 28px;
-            font-size: 24px;
+            top: 28px;
+            right: 32px;
+            font-size: 28px;
             color: var(--gold);
             cursor: none;
             opacity: 0.7;
@@ -965,13 +967,13 @@
         .events-wrap {
             display: flex;
             flex-direction: column;
-            gap: 20px;
-            max-width: 700px;
+            gap: 24px;
+            max-width: 760px;
             margin: 0 auto;
         }
         .ev-card {
             display: grid;
-            grid-template-columns: 100px 1fr;
+            grid-template-columns: 120px 1fr;
             border: 1px solid rgba(212, 168, 67, 0.2);
             overflow: hidden;
             position: relative;
@@ -979,8 +981,8 @@
             background: rgba(22, 16, 42, 0.6);
         }
         .ev-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 40px rgba(212, 168, 67, 0.15);
+            transform: translateY(-4px);
+            box-shadow: 0 10px 50px rgba(212, 168, 67, 0.18);
         }
         .ev-date {
             background: linear-gradient(160deg, rgba(212, 168, 67, 0.15), rgba(212, 168, 67, 0.05));
@@ -989,57 +991,58 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 20px 8px;
+            padding: 24px 12px;
             text-align: center;
         }
         .ev-d {
             font-family: 'Cinzel Decorative', serif;
-            font-size: 26px;
+            font-size: 32px;
             color: var(--gold2);
             line-height: 1;
         }
         .ev-m {
-            font-size: 9px;
+            font-size: 10px;
             letter-spacing: 3px;
             color: var(--gold);
-            margin-top: 4px;
+            margin-top: 6px;
             text-transform: uppercase;
             opacity: 0.7;
         }
         .ev-body {
-            padding: 22px 26px;
+            padding: 28px 32px;
         }
         .ev-name {
             font-family: 'Playfair Display', serif;
-            font-size: 18px;
+            font-size: 22px;
+            font-weight: 600;
             color: var(--gold2);
-            margin-bottom: 4px;
+            margin-bottom: 6px;
         }
         .ev-day-label {
-            font-size: 11px;
+            font-size: 12px;
             letter-spacing: 2px;
             color: var(--rose2);
-            margin-bottom: 6px;
+            margin-bottom: 8px;
             font-family: 'IM Fell English', serif;
             font-style: italic;
         }
         .ev-time {
-            font-size: 13px;
+            font-size: 15px;
             color: var(--gold);
             opacity: 0.7;
             letter-spacing: 1px;
-            margin-bottom: 4px;
+            margin-bottom: 6px;
         }
         .ev-venue {
             font-family: 'IM Fell English', serif;
             font-style: italic;
-            font-size: 14px;
+            font-size: 16px;
             color: var(--text2);
         }
 
         /* VENUE */
         .venue-wrap {
-            max-width: 860px;
+            max-width: 960px;
             margin: 0 auto;
             padding: 0 24px;
         }
@@ -1047,11 +1050,11 @@
             position: relative;
             border: 1px solid rgba(212, 168, 67, 0.25);
             overflow: hidden;
-            box-shadow: 0 0 60px rgba(212, 168, 67, 0.1);
+            box-shadow: 0 0 80px rgba(212, 168, 67, 0.12);
         }
         .map-container iframe {
             width: 100%;
-            height: 360px;
+            height: 400px;
             border: none;
             filter: sepia(0.3) saturate(0.7) brightness(0.85) hue-rotate(20deg);
         }
@@ -1060,39 +1063,39 @@
             border-top: 1px solid rgba(212, 168, 67, 0.2);
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            padding: 32px;
-            gap: 24px;
+            padding: 36px;
+            gap: 28px;
         }
         @media (max-width: 480px) {
             .venue-details {
                 grid-template-columns: 1fr;
-                padding: 24px;
+                padding: 28px;
             }
         }
         .vd-item label {
-            font-size: 9px;
-            letter-spacing: 4px;
+            font-size: 10px;
+            letter-spacing: 5px;
             color: var(--gold);
             display: block;
-            margin-bottom: 6px;
+            margin-bottom: 8px;
             opacity: 0.65;
             text-transform: uppercase;
         }
         .vd-item p {
             font-family: 'Playfair Display', serif;
-            font-size: 15px;
+            font-size: 17px;
             color: var(--cream);
         }
         .map-btn {
             display: inline-flex;
             align-items: center;
-            gap: 10px;
-            margin-top: 24px;
-            padding: 12px 28px;
+            gap: 12px;
+            margin-top: 28px;
+            padding: 14px 32px;
             border: 1px solid rgba(212, 168, 67, 0.4);
             color: var(--gold);
             font-family: 'Cinzel Decorative', serif;
-            font-size: 10px;
+            font-size: 11px;
             letter-spacing: 3px;
             text-decoration: none;
             transition: all 0.3s;
@@ -1100,150 +1103,7 @@
         }
         .map-btn:hover {
             background: rgba(212, 168, 67, 0.1);
-            box-shadow: 0 0 30px rgba(212, 168, 67, 0.2);
-        }
-
-        /* RSVP */
-        .rsvp-wrap {
-            max-width: 580px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
-        .rsvp-card {
-            background: linear-gradient(160deg, rgba(22, 16, 42, 0.9), rgba(14, 11, 24, 0.95));
-            border: 1px solid rgba(212, 168, 67, 0.2);
-            padding: 48px 40px;
-            position: relative;
-            overflow: hidden;
-        }
-        .rsvp-card::before,
-        .rsvp-card::after {
-            content: '';
-            position: absolute;
-            left: 0;
-            right: 0;
-            height: 1px;
-            background: linear-gradient(90deg, transparent, var(--gold) 50%, transparent);
-        }
-        .rsvp-card::before { top: 0; }
-        .rsvp-card::after { bottom: 0; }
-        .rsvp-corner {
-            position: absolute;
-            width: 40px;
-            height: 40px;
-            opacity: 0.4;
-        }
-        .rsvp-corner svg { width: 100%; height: 100%; }
-        .rc-tl { top: 16px; left: 16px; }
-        .rc-tr { top: 16px; right: 16px; transform: scaleX(-1); }
-        .rc-bl { bottom: 16px; left: 16px; transform: scaleY(-1); }
-        .rc-br { bottom: 16px; right: 16px; transform: scale(-1); }
-        @media (max-width: 480px) {
-            .rsvp-card { padding: 32px 24px; }
-        }
-        .fg {
-            margin-bottom: 24px;
-        }
-        .fg label {
-            font-size: 9px;
-            letter-spacing: 4px;
-            color: var(--gold);
-            display: block;
-            margin-bottom: 10px;
-            text-transform: uppercase;
-            opacity: 0.7;
-        }
-        .fg input, .fg select, .fg textarea {
-            width: 100%;
-            background: rgba(255, 255, 255, 0.03);
-            border: none;
-            border-bottom: 1px solid rgba(212, 168, 67, 0.2);
-            color: var(--cream);
-            padding: 10px 0;
-            font-family: 'Cormorant Garamond', serif;
-            font-size: 16px;
-            outline: none;
-            transition: border-color 0.3s;
-            resize: vertical;
-        }
-        .fg input:focus, .fg textarea:focus {
-            border-bottom-color: var(--gold);
-        }
-        .fg input::placeholder, .fg textarea::placeholder {
-            color: rgba(254, 249, 237, 0.2);
-            font-style: italic;
-        }
-        .fg select option {
-            background: var(--deep);
-            color: var(--cream);
-        }
-        .fg-radio {
-            display: flex;
-            gap: 24px;
-            flex-wrap: wrap;
-            margin-top: 4px;
-        }
-        .rl {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            cursor: pointer;
-            font-family: 'Cormorant Garamond', serif;
-            font-size: 16px;
-            color: var(--text2);
-        }
-        .rl input[type=radio] {
-            accent-color: var(--gold);
-            width: 14px;
-            height: 14px;
-        }
-        .send-btn {
-            width: 100%;
-            padding: 16px;
-            margin-top: 8px;
-            background: transparent;
-            border: 1px solid rgba(212, 168, 67, 0.4);
-            color: var(--gold2);
-            font-family: 'Cinzel Decorative', serif;
-            font-size: 11px;
-            letter-spacing: 4px;
-            cursor: none;
-            text-transform: uppercase;
-            transition: all 0.4s;
-            position: relative;
-            overflow: hidden;
-        }
-        .send-btn::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(135deg, rgba(212, 168, 67, 0.12), transparent);
-            transform: translateX(-100%);
-            transition: transform 0.4s;
-        }
-        .send-btn:hover::before {
-            transform: translateX(0);
-        }
-        .send-btn:hover {
-            border-color: var(--gold);
-            box-shadow: 0 0 30px rgba(212, 168, 67, 0.2);
-        }
-        #success-msg {
-            display: none;
-            text-align: center;
-            padding: 20px 0;
-            font-family: 'IM Fell English', serif;
-            font-style: italic;
-            color: var(--gold2);
-            animation: rise 0.8s both;
-        }
-        .sm-big {
-            font-size: 24px;
-            margin-bottom: 8px;
-        }
-        .sm-small {
-            font-size: 14px;
-            color: var(--text2);
+            box-shadow: 0 0 35px rgba(212, 168, 67, 0.25);
         }
 
         /* MUSIC */
@@ -1252,13 +1112,13 @@
             bottom: 30px;
             right: 30px;
             z-index: 500;
-            width: 56px;
-            height: 56px;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
             background: rgba(14, 11, 24, 0.85);
             border: 1px solid rgba(212, 168, 67, 0.4);
             color: var(--gold);
-            font-size: 22px;
+            font-size: 26px;
             cursor: none;
             display: flex;
             align-items: center;
@@ -1291,75 +1151,75 @@
         }
         .footer-names {
             font-family: 'Cinzel Decorative', serif;
-            font-size: clamp(22px, 5vw, 34px);
+            font-size: clamp(26px, 5.5vw, 38px);
             color: transparent;
             background: linear-gradient(135deg, #c9a84c, #f0cd7a, #c9a84c);
             -webkit-background-clip: text;
             background-clip: text;
-            margin-bottom: 8px;
-            filter: drop-shadow(0 0 20px rgba(212, 168, 67, 0.3));
+            margin-bottom: 12px;
+            filter: drop-shadow(0 0 25px rgba(212, 168, 67, 0.35));
         }
         .footer-date {
             font-family: 'IM Fell English', serif;
             font-style: italic;
-            font-size: 18px;
+            font-size: 20px;
             color: var(--gold);
             opacity: 0.6;
-            margin-bottom: 6px;
+            margin-bottom: 8px;
         }
         .footer-venue {
-            font-size: 13px;
+            font-size: 15px;
             color: var(--text2);
             letter-spacing: 1px;
-            margin-bottom: 24px;
+            margin-bottom: 28px;
         }
         .footer-msg {
-            font-size: 13px;
+            font-size: 14px;
             color: rgba(254, 249, 237, 0.3);
             letter-spacing: 2px;
         }
         .poem-wrap {
-            max-width: 480px;
+            max-width: 560px;
             margin: 0 auto;
             text-align: center;
             font-family: 'IM Fell English', serif;
             font-style: italic;
-            font-size: clamp(14px, 3vw, 18px);
+            font-size: clamp(16px, 3.5vw, 22px);
             color: var(--text2);
             line-height: 2.2;
             position: relative;
-            padding: 0 40px;
+            padding: 0 50px;
         }
         .poem-wrap::before,
         .poem-wrap::after {
             font-family: 'Playfair Display', serif;
-            font-size: 70px;
+            font-size: 85px;
             color: rgba(212, 168, 67, 0.15);
             position: absolute;
             line-height: 1;
         }
         .poem-wrap::before {
             content: '"';
-            top: -20px;
+            top: -25px;
             left: 0;
         }
         .poem-wrap::after {
             content: '"';
-            bottom: -40px;
+            bottom: -45px;
             right: 0;
         }
         .poem-hl {
             color: var(--gold2);
-            font-size: 1.1em;
+            font-size: 1.15em;
         }
         .footer-img {
-            width: min(260px, 70vw);
-            height: 200px;
+            width: min(300px, 75vw);
+            height: 240px;
             object-fit: cover;
             object-position: center 20%;
             border: 1px solid rgba(212, 168, 67, 0.25);
-            box-shadow: 0 0 40px rgba(212, 168, 67, 0.15);
-            margin-bottom: 32px;
+            box-shadow: 0 0 50px rgba(212, 168, 67, 0.18);
+            margin-bottom: 36px;
         }
     </style>
 </head>
@@ -1376,7 +1236,7 @@
         <img id="lb-img" src="" alt="">
     </div>
 
-    <!-- DOOR with couple images split -->
+    <!-- DOOR -->
     <div id="door-screen">
         <div class="door-scene">
             <div class="door-frame"></div>
@@ -1458,7 +1318,7 @@
             <h2 class="sec-title aos">Pratik & Karishma</h2>
             <div class="ornament-row aos">
                 <div class="or-line"></div>
-                <div class="or-center"><span>✦</span><span style="font-size:18px">❧</span><span>✦</span></div>
+                <div class="or-center"><span>✦</span><span style="font-size:20px">❧</span><span>✦</span></div>
                 <div class="or-line"></div>
             </div>
         </section>
@@ -1477,7 +1337,7 @@
             </div>
         </div>
 
-        <div class="sec-divider" style="margin-top:60px"><span>✦ ❧ ✦</span></div>
+        <div class="sec-divider" style="margin-top:80px"><span>✦ ❧ ✦</span></div>
 
         <!-- SCRATCH -->
         <section class="sec aos">
@@ -1485,7 +1345,7 @@
             <h2 class="sec-title">Scratch to Reveal</h2>
             <div class="ornament-row">
                 <div class="or-line"></div>
-                <div class="or-center"><span>✦</span><span style="font-size:18px">❧</span><span>✦</span></div>
+                <div class="or-center"><span>✦</span><span style="font-size:20px">❧</span><span>✦</span></div>
                 <div class="or-line"></div>
             </div>
             <div class="scratch-outer">
@@ -1496,7 +1356,7 @@
                         <div class="s-day">Friday</div>
                         <div class="s-year">Neelkamal Lawns, Chandoli Khed</div>
                     </div>
-                    <canvas id="scratchCanvas" width="300" height="180"></canvas>
+                    <canvas id="scratchCanvas" width="340" height="200"></canvas>
                 </div>
                 <p id="scratch-msg">✦ &nbsp; You discovered our magical day! &nbsp; ✦</p>
             </div>
@@ -1510,7 +1370,7 @@
             <h2 class="sec-title">Counting Down to Forever</h2>
             <div class="ornament-row">
                 <div class="or-line"></div>
-                <div class="or-center"><span>✦</span><span style="font-size:18px">❧</span><span>✦</span></div>
+                <div class="or-center"><span>✦</span><span style="font-size:20px">❧</span><span>✦</span></div>
                 <div class="or-line"></div>
             </div>
             <div class="countdown-wrap">
@@ -1523,32 +1383,32 @@
 
         <div class="sec-divider"><span>✦ ❧ ✦</span></div>
 
-        <!-- GALLERY GRID -->
+        <!-- GALLERY GRID - ENLARGED -->
         <section class="sec-full">
             <div class="sec" style="padding-bottom:0">
                 <p class="sec-label aos">Moments Together</p>
                 <h2 class="sec-title aos">Our Photo Gallery</h2>
                 <div class="ornament-row aos">
                     <div class="or-line"></div>
-                    <div class="or-center"><span>✦</span><span style="font-size:18px">❧</span><span>✦</span></div>
+                    <div class="or-center"><span>✦</span><span style="font-size:20px">❧</span><span>✦</span></div>
                     <div class="or-line"></div>
                 </div>
             </div>
-            <div class="gallery-grid aos" style="padding-bottom:0">
+            <div class="gallery-grid aos">
                 <div class="gg-item gg-big gg-border" onclick="openLB(this)">
-<img src="images/img2.jpeg">
+                    <img src="images/img1.jpeg" alt="Wedding">
                     <div class="gg-item-overlay"></div>
                 </div>
                 <div class="gg-item gg-tall gg-border" onclick="openLB(this)">
-<img src="images/img3.jpeg">
+                    <img src="images/img2.jpeg" alt="Wedding" style="height:100%;object-position:center 20%">
                     <div class="gg-item-overlay"></div>
                 </div>
                 <div class="gg-item gg-small gg-border" onclick="openLB(this)">
-<img src="images/img4.jpeg">
+                    <img src="images/img3.jpeg" alt="Wedding">
                     <div class="gg-item-overlay"></div>
                 </div>
                 <div class="gg-item gg-small gg-border" onclick="openLB(this)">
-<img src="images/img5.jpeg">
+                    <img src="images/img4.jpeg" alt="Wedding">
                     <div class="gg-item-overlay"></div>
                 </div>
             </div>
@@ -1562,7 +1422,7 @@
             <h2 class="sec-title aos">Wedding Celebrations</h2>
             <div class="ornament-row aos">
                 <div class="or-line"></div>
-                <div class="or-center"><span>✦</span><span style="font-size:18px">❧</span><span>✦</span></div>
+                <div class="or-center"><span>✦</span><span style="font-size:20px">❧</span><span>✦</span></div>
                 <div class="or-line"></div>
             </div>
             <div class="events-wrap">
@@ -1586,7 +1446,7 @@
             <h2 class="sec-title aos">Venue & Location</h2>
             <div class="ornament-row aos">
                 <div class="or-line"></div>
-                <div class="or-center"><span>✦</span><span style="font-size:18px">❧</span><span>✦</span></div>
+                <div class="or-center"><span>✦</span><span style="font-size:20px">❧</span><span>✦</span></div>
                 <div class="or-line"></div>
             </div>
             <div class="venue-wrap aos">
@@ -1607,40 +1467,13 @@
 
         <div class="sec-divider"><span>✦ ❧ ✦</span></div>
 
-        <!-- RSVP -->
-        <section class="sec">
-            <p class="sec-label aos">Your Presence is Our Gift</p>
-            <h2 class="sec-title aos">RSVP & Wishes</h2>
-            <div class="ornament-row aos">
-                <div class="or-line"></div>
-                <div class="or-center"><span>✦</span><span style="font-size:18px">❧</span><span>✦</span></div>
-                <div class="or-line"></div>
-            </div>
-            <div class="rsvp-wrap aos">
-                <div class="rsvp-card">
-                    <div class="rsvp-corner rc-tl"><svg viewBox="0 0 40 40" fill="none"><path d="M2 2 L2 18 M2 2 L18 2" stroke="#d4a843" stroke-width="1" /><circle cx="2" cy="2" r="2" fill="#d4a843" opacity=".5" /></svg></div>
-                    <div class="rsvp-corner rc-tr"><svg viewBox="0 0 40 40" fill="none"><path d="M2 2 L2 18 M2 2 L18 2" stroke="#d4a843" stroke-width="1" /><circle cx="2" cy="2" r="2" fill="#d4a843" opacity=".5" /></svg></div>
-                    <div class="rsvp-corner rc-bl"><svg viewBox="0 0 40 40" fill="none"><path d="M2 2 L2 18 M2 2 L18 2" stroke="#d4a843" stroke-width="1" /><circle cx="2" cy="2" r="2" fill="#d4a843" opacity=".5" /></svg></div>
-                    <div class="rsvp-corner rc-br"><svg viewBox="0 0 40 40" fill="none"><path d="M2 2 L2 18 M2 2 L18 2" stroke="#d4a843" stroke-width="1" /><circle cx="2" cy="2" r="2" fill="#d4a843" opacity=".5" /></svg></div>
-                    <div class="fg"><label>Your Name</label><input type="text" id="r-name" placeholder="Full name…"></div>
-                    <div class="fg"><label>Will You Be Joining Us?</label>
-                        <div class="fg-radio"><label class="rl"><input type="radio" name="att" value="yes"> Joyfully Attending</label><label class="rl"><input type="radio" name="att" value="no"> Unable to Attend</label></div>
-                    </div>
-                    <div class="fg"><label>Number of Guests</label><select id="r-guests"><option>1 person</option><option>2 persons</option><option>3 persons</option><option>4+ persons</option></select></div>
-                    <div class="fg"><label>Your Heartfelt Wishes</label><textarea id="r-msg" rows="4" placeholder="Write your blessings for Pratik & Karishma…"></textarea></div>
-                    <button class="send-btn" onclick="sendRSVP()">Send My Blessings &nbsp; ✦</button>
-                    <div id="success-msg"><div class="sm-big">✦ &nbsp; Thank you for your love &nbsp; ✦</div><div class="sm-small">We look forward to celebrating with you on 1st May 2026</div></div>
-                </div>
-            </div>
-        </section>
-
         <!-- FOOTER -->
         <footer class="aos">
-            <img src="images/img3.jpeg" alt="Pratik & Karishma" class="footer-img">
+            <img src="images/img2.jpeg" alt="Pratik & Karishma" class="footer-img">
             <div class="footer-names">Pratik &amp; Karishma</div>
             <div class="footer-date">01 · May · 2026 &nbsp;·&nbsp; Friday</div>
             <div class="footer-venue">Neelkamal Lawns, Tolnaka, Chandoli Khed</div>
-            <div class="ornament-row" style="margin-bottom:24px"><div class="or-line" style="width:40px"></div><div class="or-center"><span>✦</span></div><div class="or-line" style="width:40px"></div></div>
+            <div class="ornament-row" style="margin-bottom:28px"><div class="or-line" style="width:50px"></div><div class="or-center"><span>✦</span></div><div class="or-line" style="width:50px"></div></div>
             <p class="footer-msg">Made with love &nbsp;·&nbsp; Forever Begins Here</p>
         </footer>
 
@@ -1686,9 +1519,9 @@
 
         // SCRATCH
         (() => {
-            const cv = document.getElementById('scratchCanvas'), c = cv.getContext('2d'); let dn = false, done = false; const g = c.createLinearGradient(0, 0, 300, 180); g.addColorStop(0, '#7d5a10'); g.addColorStop(0.3, '#c9a84c'); g.addColorStop(0.6, '#e8d08a'); g.addColorStop(0.85, '#b08828'); g.addColorStop(1, '#8a6614'); c.fillStyle = g; c.fillRect(0, 0, 300, 180); c.fillStyle = 'rgba(60,40,5,0.55)'; c.font = 'bold 13px serif'; c.textAlign = 'center'; c.fillText('✦  S C R A T C H  H E R E  ✦', 150, 82); c.font = '11px serif'; c.fillText('to reveal our special date', 150, 104); c.globalCompositeOperation = 'destination-out';
+            const cv = document.getElementById('scratchCanvas'), c = cv.getContext('2d'); let dn = false, done = false; const g = c.createLinearGradient(0, 0, 340, 200); g.addColorStop(0, '#7d5a10'); g.addColorStop(0.3, '#c9a84c'); g.addColorStop(0.6, '#e8d08a'); g.addColorStop(0.85, '#b08828'); g.addColorStop(1, '#8a6614'); c.fillStyle = g; c.fillRect(0, 0, 340, 200); c.fillStyle = 'rgba(60,40,5,0.55)'; c.font = 'bold 14px serif'; c.textAlign = 'center'; c.fillText('✦  S C R A T C H  H E R E  ✦', 170, 92); c.font = '12px serif'; c.fillText('to reveal our special date', 170, 118); c.globalCompositeOperation = 'destination-out';
             function pos(e) { const r = cv.getBoundingClientRect(); if (e.touches) return { x: e.touches[0].clientX - r.left, y: e.touches[0].clientY - r.top }; return { x: e.clientX - r.left, y: e.clientY - r.top }; }
-            function draw(e) { if (!dn) return; e.preventDefault(); const p = pos(e); c.beginPath(); c.arc(p.x, p.y, 26, 0, Math.PI * 2); c.fill(); if (!done) { const d = c.getImageData(0, 0, 300, 180).data; let cl = 0; for (let i = 3; i < d.length; i += 4) if (d[i] < 128) cl++; if (cl / (300 * 180) > 0.5) { done = true; cv.style.transition = 'opacity .6s'; cv.style.opacity = '0'; setTimeout(() => cv.remove(), 650); document.getElementById('scratch-msg').style.display = 'block'; } } }
+            function draw(e) { if (!dn) return; e.preventDefault(); const p = pos(e); c.beginPath(); c.arc(p.x, p.y, 28, 0, Math.PI * 2); c.fill(); if (!done) { const d = c.getImageData(0, 0, 340, 200).data; let cl = 0; for (let i = 3; i < d.length; i += 4) if (d[i] < 128) cl++; if (cl / (340 * 200) > 0.45) { done = true; cv.style.transition = 'opacity .6s'; cv.style.opacity = '0'; setTimeout(() => cv.remove(), 650); document.getElementById('scratch-msg').style.display = 'block'; } } }
             cv.addEventListener('mousedown', () => dn = true); cv.addEventListener('mouseup', () => dn = false); cv.addEventListener('mousemove', draw); cv.addEventListener('touchstart', e => { dn = true; e.preventDefault(); }, { passive: false }); cv.addEventListener('touchend', () => dn = false); cv.addEventListener('touchmove', draw, { passive: false });
         })();
 
@@ -1701,9 +1534,6 @@
         // MUSIC
         const fab = document.getElementById('music-fab'), audio = document.getElementById('bg-audio'); let mp = false;
         fab.addEventListener('click', () => { mp = !mp; if (mp) { audio.play().catch(() => {}); fab.classList.add('spin-note'); } else { audio.pause(); fab.classList.remove('spin-note'); } });
-
-        // RSVP
-        function sendRSVP() { const name = document.getElementById('r-name').value.trim(), att = document.querySelector('input[name="att"]:checked'); if (!name || !att) { alert('Please fill your name and attendance.'); return; } document.querySelectorAll('.rsvp-card input,.rsvp-card select,.rsvp-card textarea,.send-btn').forEach(e => e.style.display = 'none'); document.getElementById('success-msg').style.display = 'block'; }
     </script>
 </body>
 
